@@ -1,0 +1,177 @@
+body{
+margin: 0;
+}
+
+#header, #first, #footer{
+    background-color: #1f2937;
+
+}
+
+#header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+#logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+a, .secondary-text{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.section, #container, #container div{
+    display: flex;
+}
+
+.section{
+    height: 415px;
+}
+
+#first{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#left, #right{
+    display: flex;
+    max-width: 400px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+#right{
+    height: 200px;
+    background-color: dimgray;
+    justify-content: center;
+    align-items:center ;
+}
+
+#left{
+    flex-wrap: wrap; 
+    padding: 50px;
+}
+
+.title{
+    font-weight: 900;
+}
+
+#left .title{
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+button{
+    background-color: #3882f6;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+#second{
+    flex-direction: column;
+    align-items: center;
+}
+
+#second .title, #owner{
+    color: #1f2937;
+    font-size: 36px;
+}
+
+#container{
+    
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#container div{
+    
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.holder{
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+#third{    
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+
+#quote{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 30;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#owner{
+    text-align: right;
+    padding-right: 30%;
+}
+
+#last{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#content{
+    background-color: #3882f6;
+    width: 30%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px  50px;
+}
+
+#button-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+}
+
+#button-area button{
+    border: 1px solid #e5e7eb;
+    padding: 5px 15px;
+}
+
+#footer{
+    padding: 20px ;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
